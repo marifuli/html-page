@@ -14,39 +14,47 @@
 </head>
 <body>
     
-
-    <header class="header">
-        <div class="header__logo-container">
-            <img src="" alt="" class="header__logo-container_logo">
-        </div>
-        <nav class="header__nav-links">
-            <a href="#" class="header__nav-links_nav-link active">
-                About
-            </a>
-            <a href="#" class="header__nav-links_nav-link active">
-                Help
-            </a>
-            <a href="#" class="header__nav-links_nav-link active">
-                Features
-            </a>
-            <a href="#" class="header__nav-links_nav-link active">
-                Sigup
-            </a>
-        </nav>
-        <div class="header__demo-button-container">
-            
-            <!-- Request demo component -->
-            <a href="" class="request-demo">
-                <div class="request-demo__text">
-                    Request Demo 
+    <section class="section section__wrapper">
+        <header class="header">
+            <div class="header__logo-container">
+                <div class="header__logo-container_logo">
+                    <div class="header__logo-container_logo_small"></div>
+                    <div class="header__logo-container_logo_big"></div>
                 </div>
-                <div class="request-demo__icon">
-                    icon 
-                </div>
-            </a>
+            </div>
+            <nav class="header__nav-links">
+                <a href="#" class="header__nav-links_nav-link active">
+                    About
+                </a>
+                <a href="#" class="header__nav-links_nav-link">
+                    Help
+                </a>
+                <a href="#" class="header__nav-links_nav-link">
+                    Features
+                </a>
+                <a href="#" class="header__nav-links_nav-link">
+                    Sigup
+                </a>
+            </nav>
+            <div class="header__demo-button-container">
+                
+                <!-- Request demo component -->
+                <button  class="request-demo">
+                    <span class="request-demo__text">
+                        Request Demo 
+                    </span>
+                    <span class="request-demo__icon">
+                    <svg width="20" height="12" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 15L21 8L15 1" stroke="#9C69E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 8H1" stroke="#9C69E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                                                        
+                    </span>
+                </button>
 
-        </div>
-    </header>
+            </div>
+        </header>    
+    </section>
+    
     
     <section class="section section__wrapper">
         <div class="save-data">
@@ -58,6 +66,9 @@
                 tested for security, so you can store your data here
                 safely but not be afraid of being stolen by others.
             </div>
+            <button class="save-data__lern-more-button">
+                Learn more 
+            </button>
             <div class="save-data__image">
                 <img src="/images/image1.png" alt="" class="save-data__image_img">
             </div>
@@ -70,12 +81,14 @@
                     <img src="/images/image2.png" alt="" class="section2__image_svg">
                 </div>
                 <h2 class="section2__title">
-                    Save your data storage here.
+                    We are a high-level
+                    data 
+                    storage bank
                 </h2>
                 <div class="section2__paragraph">
-                    Data Warehouse is a data storage area that has been
-                    tested for security, so you can store your data here
-                    safely but not be afraid of being stolen by others.
+                    The place to store various data that you can access at any time through the internet  and where you can carry it. 
+                    <br>
+                    This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. 
                 </div>
             </div>
         </div>
@@ -89,12 +102,17 @@
             <p class="features__paragraph">
                 Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.
             </p>
-
             <div class="feature-items">
                 <div class="feature-items__container">
                     
                     <div class="feature-items__container_item">
-                        <div class="feature-items__container_item_bg-green"></div>
+                        <svg class="feature-items__container_item_bg-green" viewBox="0 0 434 358" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.1" d="M44.2904 41.7355C48.3276 17.6466 69.1778 0.00012207 93.6026 0.00012207H383.285C410.899 0.00012207 433.285 22.3859 433.285 50.0001V308C433.285 335.614 410.899 358 383.285 358H50.3624C19.4471 358 -4.05989 330.226 1.05018 299.736L44.2904 41.7355Z" fill="#68C9BA"/>
+                        </svg>
+                        <svg class="feature-items__container_item_bg-item1" viewBox="0 0 231 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M209.014 126.03C234.738 155.207 204.363 183.381 150.903 184.141C44.6159 177.137 20.6314 83.0074 28.6641 61.9028C36.6967 40.7982 60.6151 40.2221 96.054 83.2151C131.493 126.208 176.858 89.5572 209.014 126.03Z" stroke="white" stroke-width="1.5"/>
+                        </svg>
+                            
                         <img src="/images/image3.png" class="feature-items__container_item_image">
                         <div class="feature-items__container_item_title">
                             Search Data
@@ -103,59 +121,75 @@
                             Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.
                         </div>
                         <a class="feature-items__container_item_link">
-                            <span class="feature-items__container_item_link_text"></span>
-                            <span class="feature-items__container_item_link_icon"></span>
+                            <span class="feature-items__container_item_link_text">
+                                Learn more
+                            </span>
+                            <span class="feature-items__container_item_link_icon">
+                                <svg width="18" height="14" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.2852 15.001L21.2852 8.00098L15.2852 1.00098" stroke="#9C69E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.2852 8.00098H1.28516" stroke="#9C69E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </span>
                         </a>
                     </div>
-                    <div class="feature-items__container_item">
-                        <div class="feature-items__container_item_bg-green"></div>
-                        <img src="/images/image4.png" class="feature-items__container_item_image">
-                        <div class="feature-items__container_item_title">
-                            Search Data
-                        </div>
-                        <div class="feature-items__container_item_paragraph">
-                            Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.
-                        </div>
-                        <a class="feature-items__container_item_link">
-                            <span class="feature-items__container_item_link_text"></span>
-                            <span class="feature-items__container_item_link_icon"></span>
-                        </a>
-                    </div>
-                    <div class="feature-items__container_item">
-                        <div class="feature-items__container_item_bg-green"></div>
-                        <img src="/images/image5.png" class="feature-items__container_item_image">
-                        <div class="feature-items__container_item_title">
-                            Search Data
-                        </div>
-                        <div class="feature-items__container_item_paragraph">
-                            Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.
-                        </div>
-                        <a class="feature-items__container_item_link">
-                            <span class="feature-items__container_item_link_text"></span>
-                            <span class="feature-items__container_item_link_icon"></span>
-                        </a>
-                    </div>
-                    <div class="feature-items__container_item">
-                        <div class="feature-items__container_item_bg-green"></div>
-                        <img src="/images/image6.png" class="feature-items__container_item_image">
-                        <div class="feature-items__container_item_title">
-                            Search Data
-                        </div>
-                        <div class="feature-items__container_item_paragraph">
-                            Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.
-                        </div>
-                        <a class="feature-items__container_item_link">
-                            <span class="feature-items__container_item_link_text"></span>
-                            <span class="feature-items__container_item_link_icon"></span>
-                        </a>
-                    </div>
-
+                    
                 </div>
             </div>
         </div>
     </section>
+<!-- 
+    <section class="section section__wrapper">
+        <div class="testimonials">
+            <h2 class="testimonials__title">
+                Testimonials
+            </h2>
+            <div class="testimonials__items">
 
+                <div class="testimonials__items_item">
+                    <div class="testimonials__items_item_avatar">
+                        <img src="" alt="" class="testimonials__items_item_avatar_image">
+                    </div>
+                    <div class="testimonials__items_item_details">
+                        <strong class="testimonials__items_item_details_name">
+                            Jeny Doe 
+                        </strong>
+                        <br>
+                        <strong class="testimonials__items_item_details_title">
+                            UX Engineer 
+                        </strong>
+                        <br><br>
+                        <p class="testimonials__items_item_details_paragraph">
+                            Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonials__items_item">
+                    <div class="testimonials__items_item_avatar">
+                        <img src="" alt="" class="testimonials__items_item_avatar_image">
+                    </div>
+                    <div class="testimonials__items_item_details">
+                        <strong class="testimonials__items_item_details_name">
+                            John Doe 
+                        </strong>
+                        <br>
+                        <strong class="testimonials__items_item_details_title">
+                            UX Engineer 
+                        </strong>
+                        <br><br>
+                        <p class="testimonials__items_item_details_paragraph">
+                            Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
+                        </p>
+                    </div>
+                </div>
 
+            </div>
+
+            <div class="testimonials__items_navbar">
+
+            </div>
+
+        </div>
+    </section> -->
 
 
 
