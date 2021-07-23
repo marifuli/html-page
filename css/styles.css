@@ -22,7 +22,7 @@ body {
   background: linear-gradient(359deg, #fefefe, #fafcfe);
 }
 
-a {
+a, button {
   cursor: pointer !important;
 }
 
@@ -136,7 +136,7 @@ a {
 }
 
 .request-demo:hover .request-demo__icon {
-  left: 5px;
+  left: 15px;
 }
 
 .request-demo .request-demo__icon {
@@ -193,6 +193,12 @@ a {
   font-size: 15px;
   border-radius: 48px;
   margin-top: 47px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.save-data .save-data__lern-more-button:hover {
+  background: #b694e5;
 }
 
 .save-data .save-data__image {
@@ -398,10 +404,20 @@ a {
   font-family: Avenir;
   font-weight: 600;
   font-size: 14px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.feature-items .feature-items__container .feature-items__container_item .feature-items__container_item_link:hover .feature-items__container_item_link_icon {
+  margin-left: 20px;
 }
 
 .feature-items .feature-items__container .feature-items__container_item .feature-items__container_item_link .feature-items__container_item_link_icon {
   margin: 10px 14px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  position: relative;
+  top: 3px;
 }
 
 .testimonials {
@@ -460,6 +476,8 @@ a {
   width: 416px;
   -webkit-box-shadow: 0px 17px 0px 0px #8a56db;
           box-shadow: 0px 17px 0px 0px #8a56db;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .testimonials .testimonials__items .testimonials__items_item .testimonials__items_item_avatar {
@@ -544,6 +562,8 @@ a {
   width: 50%;
   text-align: end;
   margin-right: 60px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .testimonials .testimonials__items_navbar .testimonials__items_right-item .testimonials__items_right-item_prev {
@@ -651,6 +671,20 @@ a {
   position: relative;
   left: -27px;
   margin: 0 3px;
+  -webkit-transition: scale .4s;
+  transition: scale .4s;
+}
+
+.footer .footer__row .footer__row_column-2 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-facebook:hover,
+.footer .footer__row .footer__row_column-2 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-twitter:hover,
+.footer .footer__row .footer__row_column-2 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-insta:hover,
+.footer .footer__row .footer__row_column-3 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-facebook:hover,
+.footer .footer__row .footer__row_column-3 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-twitter:hover,
+.footer .footer__row .footer__row_column-3 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-insta:hover,
+.footer .footer__row .footer__row_column-4 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-facebook:hover,
+.footer .footer__row .footer__row_column-4 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-twitter:hover,
+.footer .footer__row .footer__row_column-4 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-insta:hover {
+  scale: 1.2;
 }
 
 .footer .footer__row .footer__row_column-2 .footer__row_column-4_media-items .footer__row_column-4_media-items_item-twitter,
