@@ -13,19 +13,18 @@ $gray_black: #4B5D68;
 @font-face 
 {
     font-family: Avenir;
-    src: url('/fonts/Avenir-Regular.ttf');
+    src: url('../fonts/Avenir-Regular.ttf');
 }
 @font-face 
 {
     font-family: Helvetica;
-    src: url('/fonts/Helvetica.ttf');
+    src: url('../fonts/Helvetica.ttf');
 }
 @font-face 
 {
     font-family: Helvetica_Bold;
-    src: url('/fonts/Helvetica-Bold.ttf');
+    src: url('../fonts/Helvetica-Bold.ttf');
 }
-
 
 
 body 
@@ -938,15 +937,15 @@ a, button
                 }
                 .footer__row_column-4_media-items_item-twitter
                 {
-                    background: url(/images/twitter.svg);
+                    background: url(../images/twitter.svg);
                 }    
                 .footer__row_column-4_media-items_item-facebook
                 {
-                    background: url(/images/facebook.svg);
+                    background: url(../images/facebook.svg);
                 }    
                 .footer__row_column-4_media-items_item-insta
                 {
-                    background: url(/images/insta.svg);
+                    background: url(../images/insta.svg);
                 }    
             }
 
